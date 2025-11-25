@@ -12,11 +12,11 @@ setup(
     include_package_data=True,
     install_requires=[
         # Add your dependencies here
-        "triton==3.3.0",
+        "triton==3.1.0",
         "parse_llm_code",
         "pandas",
         "numpy==1.26",
-        "openai==0.28"
+        "openai==1.75.0"
     ],
     entry_points={
         'console_scripts': [
